@@ -1,0 +1,5 @@
+#! python
+
+import sys
+
+print sum(map(float, sys.argv[1:]))
